@@ -21,6 +21,7 @@ export default {
 }
 </script>
 
+
 <template>
     <nav>
         <div id="logo">
@@ -35,6 +36,7 @@ export default {
     </nav>
 </template>
 
+
 <style lang="scss" scoped>
 nav {
     display: flex;
@@ -42,13 +44,13 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
+    background-color: #FFFFFF;
 
     #logo {
         height: 80%;
 
         img {
             max-height: 100%;
-            ;
         }
     }
 
@@ -61,7 +63,7 @@ nav {
             color: #46464C;
 
             li:hover {
-                color: #0282F9;
+                color: #0281F8;
                 cursor: pointer;
             }
         }
